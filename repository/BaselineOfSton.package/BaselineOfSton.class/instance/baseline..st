@@ -14,4 +14,10 @@ baseline: spec
 		for: #pharo
 		do: [ spec blessing: #baseline.
 			spec
-				package: 'STON-Pharo-Extensions' with: [ spec requires: #('STON-Core' 'STON-Tests') ] ]
+				package: 'STON-Pharo-Extensions' with: [ spec requires: #('STON-Core' 'STON-Tests') ] ].
+	spec for: #'squeak' do: [
+		spec
+			package: 'STON-Core'
+				with: [ spec includes: #('STON-Squeak-Core') ];
+			package: 'STON-Squeak-Core'
+				with: [ spec requires: #('STON-Core') ] ].
