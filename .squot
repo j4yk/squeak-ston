@@ -4,5 +4,6 @@ OrderedDictionary {
 	'repository/STON-Core.package' : #SquotCypressCodeSerializer,
 	'repository/STON-Tests.package' : #SquotCypressCodeSerializer,
 	'repository/STON-Text support.package' : #SquotCypressCodeSerializer,
-	'repository/STON-Pharo-Core.package' : #SquotCypressCodeSerializer
+	'repository/STON-Pharo-Core.package' : #SquotCypressCodeSerializer,
+	'repository/STON-Squeak-Core.package' : #SquotCypressCodeSerializer
 }
